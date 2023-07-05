@@ -1,0 +1,52 @@
+/* CSS for the navigation bar */
+.navbar {
+    background-color: #1976d2;
+    padding: 10px;
+  }
+  
+  .Techbro-Logo-1 img {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("Images/navbar-toggler-icon.png");
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .nav-link.active {
+    color: #00bcd4;
+  }
+  
+  .dropdown-menu {
+    background-color: #00bcd4;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-divider {
+    border-top: 1px solid #fff;
+  }
+  
+  .form-control {
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .btn-outline-success {
+    border-color: #00bcd4;
+    color: #00bcd4;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #00bcd4;
+    color: #fff;
+  }
+  
