@@ -1,7 +1,15 @@
-/* custom.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	font-family: Gisha;
+	font-size:14px;	
+}
 
-/* Add your custom styles here */
-.navigation-bar {
-    background-color: #333;
-    color: #fff;}
-    
+.navbar-nav .nav-link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
