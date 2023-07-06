@@ -16,11 +16,28 @@ body{
 
 #Techbro-logo-ads {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 #Techbro-logo-ads img {
-    height: 280px;
-    width: 900px;
+    height: 250px;
+    width: 1200px;
 }
 
+.a-item {
+    height: 600px;
+    margin-top: 15px;
+}
+
+#Techbro-index-intro {
+    text-align: center;
+    background-color: cyan;
+    margin-top: -60px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+}
