@@ -13,3 +13,14 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
+
+#Techbro-logo-ads {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Techbro-logo-ads img {
+    height: 280px;
+    width: 900px;
+}
+
