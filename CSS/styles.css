@@ -40,20 +40,6 @@ html, body {
     margin-top: 15px;
 }
 
-#Techbro-index-intro {
-    text-align: center;
-    background-color: cyan;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 10px;
-    border-style: solid;
-    border-radius: 20px;
-}
-
 #product-features {
     text-align: center;
 }
@@ -75,3 +61,99 @@ html, body {
     font-size: 13px;
     margin-top: -75px;
 }
+
+.box {
+    width:auto;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius:5%;
+}
+
+.card {
+    margin-bottom: 20px; /* Add margin between cards */
+    margin-left: 30px;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Set the desired height of the card image */
+    object-fit: cover; /* Ensure the image covers the entire area */
+  }
+  
+  .card-body {
+    background-color: #f8f8f8; /* Set the background color of the card body */
+    padding: 10px; /* Add padding to the card body */
+  }
+  
+  .card-text {
+    font-size: 14px; /* Set the font size of the card text */
+    color: #555; /* Set the color of the card text */
+  }
+  
+  .btn {
+    display: block; /* Make the button a block element */
+    margin-top: 10px; /* Add spacing above the button */
+    width: auto; /* Make the button full width within the card body */
+  }
+  #All-Products {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px; /* Add spacing at the top of the container */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:last baseline;
+  }
+  
+  .col-md-6 {
+    flex-basis: 48%; /* Adjust the width of the columns as desired */
+    margin-bottom: 20px; /* Add spacing between the columns */
+  }
+  
+  .Store-location {
+    text-align: center; /* Align the content in the center */
+  }
+  
+  .Store-location h2 {
+    color: #333; /* Set the color of the heading */
+    font-size: 24px; /* Set the font size of the heading */
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+  
+  .Store-location iframe {
+    width: 100%; /* Set the width of the iframe to 100% */
+    max-width: 100%; /* Set a maximum width for the iframe */
+    height: 400px; /* Set the height of the iframe */
+    border: none; /* Remove the border of the iframe */
+  }
+  
+  #Techbro-index-intro {
+    text-align: center; /* Align the content in the center */
+    margin-top: 200px;
+  }
+  
+  #Techbro-index-intro h2 {
+    color: #333; /* Set the color of the heading */
+    font-size: 24px; /* Set the font size of the heading */
+    margin-bottom: 10px; /* Add spacing below the heading */
+  }
+  
+  #Techbro-index-intro p {
+    font-size: 16px; /* Set the font size of the paragraph */
+    color: #555; /* Set the color of the paragraph text */
+  }
+  
+  #Techbro-index-intro .btn {
+    display: inline-block; /* Make the button an inline block */
+    margin-top: 10px; /* Add spacing above the button */
+    font-size: 16px; /* Set the font size of the button */
+  }
+  
+  
