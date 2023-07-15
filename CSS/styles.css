@@ -8,7 +8,9 @@ html, body {
     display: flex;
     flex-direction: column;
   }
-  
+  body {
+    background-color: #f2f2f2; /* Replace with your desired background color */
+  }
   main {
     flex: 1;
   }
@@ -161,4 +163,30 @@ html, body {
     border-radius: 50px;
     margin-bottom: 50px;
   }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35px;
+  }
+  
+  #video-1 {
+    border: 10px solid #3c0cd6;
+    padding: 10px;
+    background-color: #0e23c4;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .video-box {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  
+
 
